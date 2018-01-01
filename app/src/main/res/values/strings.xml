@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Quiz of Thrones</string>
+
+    <string name="quote">\"When you play the game of thrones, you win or you die. There is no middle ground.\"</string>
+    <string name="cersei">- Cersei Lannister</string>
+    <string name="start_button">Valar Morghulis</string>
+
+    <string name="hint">Type in your answer ...</string>
+
+    <string name="next">Next Question</string>
+    <string name="check">Check Answer</string>
+    <string name="correct">Correct!</string>
+    <string name="end">End Game</string>
+    <string name="chart_correct">CORRECT</string>
+    <string name="chart_false">FALSE</string>
+    <string name="result">Result</string>
+
+    <string name="wrong_solution">Wrong! Solution: </string>
+    <string name="no_radiobutton_selected">Please select one option as answer!</string>
+
+    <string name="question_1">What is the appropriate answer to "Valar Morghulis"?</string>
+    <string name="question_1_answer">Valar Dohaeris</string>
+
+    <string name="question_2">What is the language of the White Walkers?</string>
+    <string name="question_2_choice_1">Ashai\'i</string>
+    <string name="question_2_choice_2">Ghiscari</string>
+    <string name="question_2_choice_3">Skroth</string>
+    <string name="question_2_correct_choice">3</string>
+
+    <string name="question_3">What are the names of Daenerys brothers?</string>
+    <string name="question_3_choice_1">Rhaegar</string>
+    <string name="question_3_choice_2">Rhaegal</string>
+    <string name="question_3_choice_3">Viserys</string>
+    <string name="question_3_choice_4">Viserion</string>
+    <string name="question_3_correct_ones">13</string>
+
+    <string name="question_4">What is the motto of house Greyjoy?</string>
+    <string name="question_4_answer">WE DO NOT SOW</string>
+
+    <string name="question_5">What is the order of Daenerys conquest in the bay of slaves?</string>
+    <string name="question_5_choice_1">Astapor, Yunkai, Meereen</string>gfg
+    <string name="question_5_choice_2">Yunkai, Astapor, Meereen</string>
+    <string name="question_5_choice_3">Astapor, Meereen, Yunkai</string>
+    <string name="question_5_correct_choice">1</string>
+
+    <string name="question_6">Into which swords is Ice, Ned Starks sword, reforged?</string>
+    <string name="question_6_choice_1">Longclaw</string>
+    <string name="question_6_choice_2">Oathkeeper</string>
+    <string name="question_6_choice_3">Widow\'s Wail</string>
+    <string name="question_6_choice_4">Orphans Maker</string>
+    <string name="question_6_correct_ones">23</string>
+
+    <string name="question_7">How many actors have played \"The Mountain\"?</string>
+    <string name="question_7_answer">3</string>
+
+    <string name="question_8">What does house Bolton traditionally with their foes?</string>
+    <string name="question_8_choice_1">impale</string>
+    <string name="question_8_choice_2">flay</string>
+    <string name="question_8_choice_3">quartered</string>
+    <string name="question_8_correct_choice">2</string>
+
+    <string name="question_9">What should have been the name of Daenerys and Khal Drogos son?</string>
+    <string name="question_9_answer">Rhaego</string>
+
+    <string name="question_10">Which Lennister was born first?</string>
+    <string name="question_10_choice_1">Jaime</string>
+    <string name="question_10_choice_2">Cersei</string>
+    <string name="question_10_choice_3">Tyrion</string>
+    <string name="question_10_correct_choice">2</string>
+</resources>

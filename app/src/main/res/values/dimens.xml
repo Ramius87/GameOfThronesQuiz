@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_margin">16dp</dimen>
+    <dimen name="double_margin">32dp</dimen>
+
+    <dimen name="heading_size">28sp</dimen>
+    <dimen name="button_size">20sp</dimen>
+    <dimen name="quote_size">16sp</dimen>
+
+</resources>

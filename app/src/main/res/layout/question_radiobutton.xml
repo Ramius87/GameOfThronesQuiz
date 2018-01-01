@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.gameofthronesquiz.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ironthrone" />
+
+    <ImageView
+        android:id="@+id/questionImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/question"
+        android:layout_margin="@dimen/normal_margin"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ironthrone" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:fontFamily="casual"
+        android:text="@string/question_3"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/quote_size"
+        android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/question"
+            android:layout_margin="@dimen/normal_margin">
+
+            <RadioButton
+                android:id="@+id/choice_1"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/question_3_choice_1"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/choice_2"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/question_3_choice_1"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/choice_3"
+                android:paddingLeft="@dimen/normal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/question_3_choice_1"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/gameofthrones"
+        android:paddingHorizontal="@dimen/normal_margin"
+        android:text="@string/check"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/quote_size" />
+
+</RelativeLayout>

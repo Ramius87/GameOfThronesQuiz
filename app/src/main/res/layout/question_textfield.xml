@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.gameofthronesquiz.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:alpha="0.4"
+        android:src="@drawable/ironthrone" />
+
+    <ImageView
+        android:id="@+id/questionImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/normal_margin"
+        android:layout_above="@id/question"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ironthrone" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:fontFamily="casual"
+        android:text="@string/question_1"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/quote_size" />
+
+    <EditText
+        android:id="@+id/txtAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint"
+        android:layout_margin="@dimen/normal_margin"
+        android:fontFamily="casual"
+        android:inputType="text"
+        android:layout_below="@id/question"/>
+
+    <TextView
+        android:id="@+id/solution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/txtAnswer"
+        android:textSize="@dimen/quote_size" />
+
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/gameofthrones"
+        android:paddingHorizontal="@dimen/normal_margin"
+        android:textSize="@dimen/quote_size"
+        android:text="@string/check"
+        android:textColor="@android:color/holo_red_dark" />
+
+</RelativeLayout>

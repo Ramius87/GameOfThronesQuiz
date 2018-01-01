@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.gameofthronesquiz.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:alpha="0.75"
+        android:src="@drawable/ironthrone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/normal_margin"
+        android:fontFamily="@font/gameofthrones"
+        android:text="@string/app_name"
+        android:textSize="@dimen/heading_size" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/quote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/gameofthrones"
+        android:paddingHorizontal="@dimen/normal_margin"
+        android:textSize="@dimen/quote_size"
+        android:text="@string/start_button"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/cersei"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:fontFamily="casual"
+        android:text="@string/quote"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/quote_size" />
+
+    <TextView
+        android:id="@+id/cersei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:fontFamily="casual"
+        android:text="@string/cersei"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/quote_size" />
+
+</RelativeLayout>
